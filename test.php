@@ -1,5 +1,0 @@
-<?php
-
-exho 'test';
-
-?>
