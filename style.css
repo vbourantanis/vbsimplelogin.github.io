@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}   
+
+.wrapper{
+    background-color: #fff;
+    padding: 20px;
+    height: 140px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+
+}
+
+form{
+    padding: 25px 30px;
+    justify-content: center;
+}
+
+form input[type="text"], input[type="password"]{
+    margin: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form input[type="text"]:focus, input[type="password"]:focus{
+
+    border:none;
+    border: 2px solid black;
+    transition: 0.3s;
+    
+
+    
+
+}
+
+
+
+input[type="submit"]{
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    float: right;
+    margin-right: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 16px;
+    width: 50%;
+    padding: 5px;
+    transition: 1s;
+}
+
+
+input[type="submit"]:hover{
+
+    background-color: darkmagenta;
+    transition: 0.4s;
+
+
+}
+
